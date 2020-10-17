@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'EB Garamond', serif;
+}
+
+/* ---------------------------------------------- HEADER ----------------------------------------------- */
+header{
+    display: flex;
+    justify-content: center;
+}
+header p{
+    font-size: 60px;
+    font-weight: 600;
+    padding: 20px 50px;
+    border: 2px solid rgb(0, 0, 0);
+    background-color: rgba(255, 0, 0, 0.19);
+    width: 300px;
+    margin-top: 10%;
+    text-align: center;
+    cursor: pointer;
+    box-shadow: 0 0 10px black;
+}
+
+
+
+/* ---------------------------------------------- PANIER ----------------------------------------------- */
+
+
+.storeContainer{
+    position: absolute;
+    width: 90%;
+    top: 45px;
+    right: 5%;
+    box-shadow: 0px 0px 15px black;
+    display: flex;
+    margin-bottom: 100px;
+}
+
+.closed{
+    display: none;
+}
+
+.store{
+    width: 65%;
+    padding: 20px;
+    background-color: #f8f8f8;
+}
+
+.storeTitle{
+    display: flex;
+    justify-content: space-between;
+    align-items: center ;
+    margin: 0 4%;
+    margin-bottom: 15px;
+}
+
+.storeTitle h1{
+    font-size: 30px;
+}
+
+.storeArray{
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid grey;
+    padding: 10px 0;
+    margin-bottom: 20px;
+}
+
+#product{
+    width: 50%;
+    text-align: left;
+}
+
+
+.storeArray h2{
+    font-size: 20px;
+    font-weight: 300;
+    color: grey;
+    width: 16.66667%;
+    text-align: center;
+}
+
+.productitem{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 10px;
+
+}
+
+.productitem > p{
+    width: 16.666667%;
+    text-align: center;
+}
+
+.productitem > p input{
+    width: 30px;
+}
+
+.product{
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.fa-heart{
+    font-size: 20px;
+}
+
+.fa-heart:hover{
+    color: red;
+    cursor: pointer;
+}
+
+.red{
+    color:red;
+}
+
+.product img{
+    width: 80px;
+    margin: 0 10px;
+}
+
+.productDetails h1{
+    font-size: 20px;
+}
+
+.productDetails h2{
+    font-size: 18px;
+    margin: 4px 0;
+}
+
+.productDetails h3{
+    font-size: 14px;
+    color: grey;
+}
+
+.productDetails h3:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.order{
+    width: 35%;
+    background-color: #e0e0e0;
+    padding: 20px;
+}
+
+.order > h1 {
+    font-size: 30px;
+    margin: 0 4%;
+    margin-bottom: 15px;
+
+}
+
+.orderTitle {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid grey;
+    padding: 10px 0;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.orderContainer{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+}
+
+.form h1{
+    font-size: 20px;
+
+}
+
+.form select, .form input{
+    font-size: 16px;
+    padding:3px;
+    margin: 20px 20%;
+}
+
+.form button{
+    width: 100px;
+    padding: 3px 8px;
+    color: white;
+    background-color: #e97e64;
+    border: none;
+    cursor: pointer;
+}
+
+.form button:active{
+    border: none;
+}
+
+button {
+    font-size: 18px;
+}
+
+.cost{
+    margin-top: 60px;
+    border-top: 1px solid grey;
+}
+
+.cost h1{
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.cost button{
+    background-color:rgb(19, 19, 125);
+    color: white;
+    border: none;
+    width: 80%;
+    padding: 4px 0;
+    text-align: center;
+    margin: 10px 10%;
+    cursor: pointer;
+}
+
+
+.fa-times-circle{
+    font-size: 25px;
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    cursor: pointer;
+}
+
+
+
+

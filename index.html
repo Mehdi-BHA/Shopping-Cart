@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/62aa4d126a.js" crossorigin="anonymous"></script>
+    <script src="js/store.js" async></script>
+    <script src="js/shoppingcart.js" async></script>
+    <script src="js/script.js" async></script>
+    <title>Document</title>
+</head>
+    <div class="container"></div>
+        <header>
+            <p id="panier">Panier</p>
+        </header>
+        <main>
+
+            <!---------------- Panier --------------->
+            <div class="storeContainer">
+                <i class="fas fa-times-circle" id="close-cart"></i>
+                <div class="store">
+                    <div class="storeTitle">
+                        <h1>Panier</h1>
+                        <h1 id=items-counter>3 items</h1>
+                    </div>
+                    <div class="storeArray">
+                        <h2 id="product">Produit</h2>
+                        <h2>Quantité</h2>
+                        <h2>Prix</h2>
+                        <h2>Total</h2>
+                    </div>
+                    <div class="productlist" id="list">
+                    </div>
+                </div>
+                <div class="order">
+                    <h1>Commande</h1>
+                    <div class="orderTitle">
+                        <p class="nbritems">items 3</p>
+                        <p class="total-cost">1380dt</p>
+                    </div>
+                    <div class="orderContainer">
+                        <div class="form">
+                            <h1>Livraison :</h1>
+                            <select name="" id="" class="delivery">
+                                <option value="5">Livraison Standard - 5dt</option>
+                                <option value="10">Livraison Express - 10dt</option>
+                            </select>
+                            <h1>Code PROMO :</h1> <p>(try gomycode for 20%)</p>
+                            <input type="text" id="promo-code">
+                            <button id="btn-apply">Apply</button>
+                        </div>
+                        <div class="cost">
+                            <h1 id="final-cost">Total cost</h1>
+                            <button id="btn-cost">Checkout</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </main>
+    </div>
+</body>
+</html>
